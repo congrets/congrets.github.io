@@ -3,85 +3,50 @@
 		<title>
 			Alan Spektor - About
 		</title>
-		<style type="text/css">
-			p {
-				font-family: Arial, sans-serif;
-			}
-			.margin {
-				margin: 20px;
-			}
-			.header {
-				width: 100%;
-				padding:60px 0;
-				text-align: center;
-				background: #33cccc;
-				color: white;
-			}
-			.wrap {
-				inline-size: 500px;
-				word-wrap:  normal;
-			}
-			.rightAlign {
-				text-align: right;
-			}
-			.centerAlign {
-				text-align: center;
-			}
-			.leftAlign {
-				text-align: left;
-			}
-			.border {
-				border: 3px;
-				border-style: solid;
-				border-color: black;
-				margin: 5px;
-			}
-		</style>
+		<link rel = "stylesheet" href = "style.css">
 	</head>
-	<body style="background-color:#EDEFEE">
-		<section class="header">
-			<div align="right" style="margin-right: 20px;">
-				<a href="about.html">About</a>
-				<br>
-				<a href="skills.html">Skills</a>
-				<br>
-				<a href="experience.html">Experience</a>
-				<br>
-				<a href="contact.html">Contact</a>
-				<h1 style="font-size: 3em; text-align:center;">About</h1>
-			</div>
-		</section> 
-
-		<hr>
-
-		<p class="center" style="float:right;"> <img src="https://static.thenounproject.com/png/1905238-200.png" alt="Profile Picture" class="border" style="margin-right: 145px;" width=30% height=auto> </p>
-
-		<p class="wrap margin centerAlign"; style="padding-left:75px"> <b>Who am I?</b> <br><br>
-			My name is Alan Spektor and I am a sophmore at the Georgia Institute of Technology studying Computer Science and Computational Media. I'm interested in back-end design and video game development. My hobbies include puzzle solving, chess, and analyzing different forms of media. </p>
-
-		<br>
-		<hr>
-		<br>
-
-		<p class = "leftAlign" style="float: left;"> <img src="https://static9.depositphotos.com/1000128/1192/i/600/depositphotos_11929742-stock-photo-computer-mobility-and-cloud-computing.jpg" alt="Profile Picture" class="border" style="margin-left: 215px;" width=25% height=auto> </p>
-
-		<div align="right">
-		<p class="wrap margin centerAlign"; style="padding-right:75px"> <b>Why am I interested in Computer Science?</b> <br><br>
-			I believe that the ability to actualize one's desires is the most important ability anyone can have. I have many ideas for contraptions, games, etc. that I believe knowing how to program would be essential to bringing them to life. As a result of this, I pursue my field because I want to have the ability to bring my ideas to the real world. I'd like for my creations to have a positive impact on future generations the way past creations have improved my life. </p>
+	<body style="background-color:#555">
+		<!-- HEADER SECTION + LINKS -->
+		<div class="headerLinks">
+			<a class="active" href="about.html">About</a>
+			<a href="skills.html">Skills</a>
+			<a href="experience.html">Experience</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<div id="headerBody">
+			<h1 style="font-size: 3em; text-align:center;">About</h1>
 		</div>
 
-		<br>
-		<hr>
-		<br>
+		<!-- SECTION ONE -->
+		<div id="sectionOne">
+			<div style="position: absolute ; width: 55%; left: 2%;">
+				<h3 style="position: absolute"><b>Who Am I?</b></h3>
+				<p style="word-wrap: break-word; font-size: 20px; position: absolute; top: 40px">My name is Alan Spektor and I am a sophmore at the Georgia Institute of Technology studying Computer Science and Computational Media. I'm interested in back-end design and video game development. My hobbies include puzzle solving, chess, and analyzing different forms of media. 
+				</p>
+				<img src="https://us.123rf.com/450wm/dizanna/dizanna1910/dizanna191000318/dizanna191000318.jpg?ver=6" style=" position: absolute; top: 20px; left: 112%; width: 55%">
+			</div>
+		</div>
 
-		<p class="rightAlign" style="float:right;"> <img src="https://pcprd.azureedge.net/content/different-types-of-calendars-used-around-the-world-8437894942255.jpg" alt="Calendar" class="border" style="margin-right: 145px;" width=20% height=auto> </p>
+		<!-- SECTION TWO -->
+		<div id="sectionTwo">
+			<div style="position: absolute; width: 96%; left: 2%;">
+				<img src="http://www.latinasinstem.com/uploads/5/1/6/2/51621263/2015-1448929395_orig.jpg" style=" position: absolute; right: 60%; top: 30px; width: 40%">
+				<div style="margin-left: 400px; text-align: right">
+					<h3 style="position: absolute"><b>Why am I interested in Computer Science?</b></h3>
+					<p style="word-wrap: break-word; font-size: 20px; position: absolute; top: 30px">I believe that the ability to actualize one's desires is the most important ability anyone can have. I have many ideas for contraptions, games, etc. that I believe knowing how to program would be essential to bringing them to life. As a result of this, I pursue my field because I want to have the ability to bring my ideas to the real world. I'd like for my creations to have a positive impact on future generations the way past creations have improved my life.
+					</p>
+				</div>
+			</div>
+		</div>
 
-		<p class="wrap margin centerAlign"; style="padding-left:75px"> <b>Where do I see myself in three to five years?</b><br><br>
-			I see myself working as a software developer, being able to operate reliably with minimal oversight and contribute to improvements at my company. Leaading up to and during this time I will be improving my skills to qualify for a managerial position so I can oversee and manage a plethora of different projects, making sure each one is being developed efficiently and properly. </p>
-
-		<br>
-		<hr>
-		<br>
-
+		<!-- SECTION THREE -->
+		<div id="sectionThree">
+			<div style="position: absolute; width: 55%; left: 2%;">
+				<h3 style="position: absolute"><b>Where do I see myself in three to five years?</b></h3>
+				<p style="word-wrap: break-word; font-size: 20px; position: absolute; top: 40px">I see myself working as a software developer, being able to operate reliably with minimal oversight and contribute to improvements at my company. Leaading up to and during this time I will be improving my skills to qualify for a managerial position so I can oversee and manage a plethora of different projects, making sure each one is being developed efficiently and properly.
+				</p>
+				<img src="https://pcprd.azureedge.net/content/different-types-of-calendars-used-around-the-world-8437894942255.jpg" style=" position: absolute; top: 30px; left: 112%; width: 55%">
+			</div>
+		</div>
 	</body>
 </html>

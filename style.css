@@ -1,0 +1,100 @@
+#sectionOne {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	width: 50%;
+	height: 25%;
+	text-align: left;
+	background-color: rgb(211, 211, 211);
+}
+
+#sectionTwo {
+	position: absolute;
+	left: 25%;
+	top: 55%;
+	width: 50%;
+	height: 25%;
+	text-align: right;
+	background-color: rgb(211, 211, 211);
+}
+
+#sectionThree {
+	position: absolute;
+	left: 25%;
+	top: 85%;
+	width: 50%;
+	height: 25%;
+	text-align: left;
+	background-color: rgb(211, 211, 211);
+}
+
+#skillsSection {
+	position: absolute;
+	left: 12.5%;
+	top: 60%;
+	width: 75%;
+	height: 25%;
+	text-align: left;
+	background-color: rgb(211, 211, 211);
+}
+
+#experienceSection {
+	position: absolute;
+	left: 12.5%;
+	top: 25%;
+	width: 75%;
+	height: 50%;
+	text-align: left;
+	background-color: rgb(211, 211, 211);
+}
+
+#contactSection {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	width: 50%;
+	height: 45%;
+	text-align: left;
+	background-color: rgb(211, 211, 211);
+}
+
+#headerBody {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 15%;
+	text-align: center;
+	background-color: rgb(211, 211, 211);
+}
+
+.headerLinks {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.headerLinks a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 23%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.headerLinks a:hover {
+  background-color: #000;
+}
+
+.headerLinks a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .headerLinks a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
